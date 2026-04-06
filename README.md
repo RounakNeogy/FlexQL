@@ -51,7 +51,7 @@ FlexQL/
 │   └── flexql_repl_main.cpp
 ├── benchmark_suite/
 │   └── benchmark_flexql.cpp
-├── data/                  # runtime persisted data (catalog, WAL, table files)
+├── data/
 ├── Makefile
 └── README.md
 ```
