@@ -1,0 +1,28 @@
+# Build artifacts
+.build/
+build/
+cmake-build-*/
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Runtime database artifacts
+data/*
+!data/.gitkeep
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Editors/IDEs
+.vscode/
+.idea/
